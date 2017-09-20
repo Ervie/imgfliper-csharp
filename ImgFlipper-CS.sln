@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImgFlipAPITests", "ImgFlipAPITests\ImgFlipAPITests.csproj", "{DA6C02CF-FC2D-4CBD-927C-5F6DD502A9C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImgFlipAPI.APISource", "ImgFlipAPI.APISource\ImgFlipAPI.APISource.csproj", "{F4BE60E9-49F3-4AF6-8209-8FE2A141B5DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImfFlipAPI.APISource.Core", "ImfFlipAPI.APISource.Core\ImfFlipAPI.APISource.Core.csproj", "{4268561C-84BD-410C-AC52-2546237D1068}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{F4BE60E9-49F3-4AF6-8209-8FE2A141B5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4BE60E9-49F3-4AF6-8209-8FE2A141B5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4BE60E9-49F3-4AF6-8209-8FE2A141B5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4268561C-84BD-410C-AC52-2546237D1068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4268561C-84BD-410C-AC52-2546237D1068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4268561C-84BD-410C-AC52-2546237D1068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4268561C-84BD-410C-AC52-2546237D1068}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7376277-2A03-41A2-B055-A4F30C752037}
 	EndGlobalSection
 EndGlobal
